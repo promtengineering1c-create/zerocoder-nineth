@@ -1,6 +1,10 @@
 [project]
 name = 'nineth'
 version = '1.0'
+dependencies = [
+    "pytest-mock>=3.17.0",
+    "requests>=2.34.2",
+]
 
 [dependency-groups]
 dev = [
