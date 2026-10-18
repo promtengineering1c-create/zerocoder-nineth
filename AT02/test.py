@@ -6,7 +6,8 @@ from main import count_vowels
     ("Привет", 2),
     ("Ёжик", 2),
     ("", 0),
-    ("123 !?", 0)
+    ("123 !?", 0),
+    ("аеиоуыэюя", 9),
 ])
 def test_count_vowels(word, result):
     assert count_vowels(word) == result
